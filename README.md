@@ -48,6 +48,10 @@ streamlit run dashboard.py
 python run_discovery.py
 ```
 
+## Paper-trading desk
+
+A separate PAPER-TRADING-only 6-stage desk (Scout, Filter, Analyst, Executor, Risk, Logger) lives in [`paper_desk/`](paper_desk/README.md). It uses free public data sources only and has no wallet, key, or transaction-sending code. See that folder for how to run, stop, and check stats.
+
 ## License
 
 MIT
